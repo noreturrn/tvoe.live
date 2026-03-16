@@ -1,0 +1,24 @@
+{
+  "name": "tvoe-live",
+  "version": "1.0.0",
+  "main": "dist/main.cjs",
+  "config": {
+    "title": "TVОЁ",
+    "icon": "https://static.rustore.ru/imgproxy/FLVc3a2W2fd_wmo6NWwvA4QS1YnRNWpmAee9OBvmiDk/preset:web_app_icon_160/plain/https://static.rustore.ru/apk/2063574114/content/ICON/0920594b-8afc-4ba9-8401-745791240307.png@webp"
+  },
+  "keywords": [
+    "streaming-services"
+  ],
+  "homepage": "https://tvoe.live",
+  "author": {
+    "name": "noreturn"
+  },
+  "scripts": {
+    "build": "azt build main.ts",
+    "dev": "azt dev main.ts"
+  },
+  "devDependencies": {
+    "azot": "^5.0.0-alpha.16",
+    "typescript": "^5.0.0"
+  }
+}
