@@ -1,7 +1,10 @@
 {
   "name": "tvoe-live",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/main.cjs",
+  "files": [
+    "dist"
+  ],
   "config": {
     "title": "TVОЁ",
     "icon": "https://static.rustore.ru/imgproxy/FLVc3a2W2fd_wmo6NWwvA4QS1YnRNWpmAee9OBvmiDk/preset:web_app_icon_160/plain/https://static.rustore.ru/apk/2063574114/content/ICON/0920594b-8afc-4ba9-8401-745791240307.png@webp"
